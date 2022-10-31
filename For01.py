@@ -9,4 +9,11 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    i=0
+    a=list1=[]
+    while i<n:
+        list1=list1+[i]
+        i+=1
+    return list1
+print(main(5))
+        
