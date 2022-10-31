@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    list1=[]
+    i=0
+    while A<=B:
+        list1+=[A]
+        A+=1
+    return list1
+print(main(2,7))
