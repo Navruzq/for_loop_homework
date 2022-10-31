@@ -6,4 +6,11 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    i=0
+    
+    while i<n:
+        print('"',i,end=',')
+        i+=1
+    return '"'
+
+print(main(3))
