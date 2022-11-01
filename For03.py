@@ -7,4 +7,11 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    
+    list1=[]
+    i=0
+    while i<n:
+        list1=(list1+[k])
+        i+=1
+    return list1
+print(main(-1,4))   
