@@ -7,4 +7,11 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    list1=[]
+    i=0
+    n=B-A
+    while i<=n:
+        list1=list1+[B-i]
+        i+=1    
+    return list1
+print(main(5,9))
