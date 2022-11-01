@@ -7,10 +7,13 @@ def main(n):
         string: return  answer
     """
     i=0
-    a=n-1
-    while i<a:
-        print(i,end=',')
+    a=''
+    while i<n:
+        if i==n-1:
+            a+=str(i)
+        else:
+            a=a+str(i)+','
         i+=1
     return a
 
-print(main(3))
+print(main(8))
