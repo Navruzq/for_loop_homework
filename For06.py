@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    s=0
+    
+    while A<B:
+        s+=A
+        A+=1
+    return s
+print(main(3,6))
