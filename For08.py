@@ -6,4 +6,13 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    i=0
+    s=0
+    while i<=N:
+        if i!=0:
+          s+=1/i
+        else:
+            s=0
+        i+=1
+    return s
+print(main(4))
