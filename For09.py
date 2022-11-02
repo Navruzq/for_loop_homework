@@ -6,4 +6,10 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    s=[]
+    i=1
+    while i<=10:
+        s+=[price*i]
+        i+=1
+    return s
+print(main(2.25))
