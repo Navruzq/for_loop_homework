@@ -6,11 +6,11 @@ def main(N):
     Returns:
         int: return  answer
     """
+  
     s=0
-    i=0
-    while i<N:
-        if i%2==1:
-           s+=i
-        i+=1
+    
+    for i in range(N):
+        if i%2:
+            s+=i
     return s
 print(main(12))
