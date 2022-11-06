@@ -9,11 +9,11 @@ def main(n):
     Returns:
         list: return  answer
     """
-    i=0
-    list1=[]
+    a=[]
+    
     for i in range(n):
-        list1=list1+[i]
-    return list1
+       a.append(i)
+    return a
 print(main(5)) 
  
         
