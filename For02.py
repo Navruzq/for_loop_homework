@@ -6,14 +6,13 @@ def main(n):
     Returns:
         string: return  answer
     """
-    i=0
+    
     a=''
-    while i<n:
+    for i in range(n):
         if i==n-1:
             a+=str(i)
         else:
             a=a+str(i)+','
-        i+=1
     return a
-
-print(main(8))
+print(main(8)) 
+ 
