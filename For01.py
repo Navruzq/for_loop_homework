@@ -11,7 +11,7 @@ def main(n):
     """
     i=0
     list1=[]
-    for i in range(n+1):
+    for i in range(n):
         list1=list1+[i]
     return list1
 print(main(5))
