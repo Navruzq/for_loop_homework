@@ -8,8 +8,9 @@ def main(list1):
     """
     i=0
     s=[]
-    while i<len(list1):
+    for i in range(len(list1)):
+    
         s+=[list1[i].title()]
-        i+=1
+        
     return s
 print(main(['rustam','diyor']))
