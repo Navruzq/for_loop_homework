@@ -8,9 +8,7 @@ def main(A,B):
         list: return  answer
     """
     list1=[]
-    i=0
-    while A<=B:
-        list1+=[A]
-        A+=1
+    for i in range(A,B+1):
+       list1.append(i)
     return list1
 print(main(2,7))
