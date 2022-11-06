@@ -15,6 +15,5 @@ def main(n):
         list1=list1+[i]
     return list1
 print(main(5)) 
-
-
+ 
         
