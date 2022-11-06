@@ -9,8 +9,7 @@ def main(A,B):
     """
     s=0
     
-    while A<B:
-        s+=A
-        A+=1
+    for i in range(A,B):
+        s+=i
     return s
 print(main(3,6))
