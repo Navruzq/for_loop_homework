@@ -6,13 +6,11 @@ def main(N):
     Returns:
         float: return  answer
     """
-    i=0
     s=0
-    while i<=N:
+    for i in range(N+1):
         if i!=0:
-          s+=1/i
+            s+=1/i
         else:
             s=0
-        i+=1
     return s
-print(main(4))
+print(main(5))
