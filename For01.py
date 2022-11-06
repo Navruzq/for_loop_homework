@@ -14,7 +14,7 @@ def main(n):
     for i in range(n):
         list1=list1+[i]
     return list1
-print(main(5))
+print(main(5)) 
 
 
         
